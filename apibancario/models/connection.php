@@ -12,7 +12,7 @@ class Connection{
 
 		$infoDB = array(
 
-			"database" => "marketplace",
+			"database" => "",
 			"user" => "root",
 			"pass" => ""
 
@@ -37,7 +37,7 @@ class Connection{
 	=============================================*/
 	static public function publicAccess(){
 
-		$tables = ["products","users","orders","sales"];
+		$tables = [""];
 
 		return $tables;
 
