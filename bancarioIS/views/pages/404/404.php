@@ -13,7 +13,7 @@
 
       <p>
         We could not find the page you were looking for.
-        Meanwhile, you may <a href="/">return to dashboard</a>.
+        Meanwhile, you may <a href="/">return to Home</a>.
       <p>
 
     </div>

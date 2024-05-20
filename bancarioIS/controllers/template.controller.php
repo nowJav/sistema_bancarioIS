@@ -11,7 +11,7 @@ class TemplateController{
 
 	static public function path(){
 
-		return "http://admincsmart.com/";
+		return "http://bancariois.com/";
 
 	}
 
@@ -126,7 +126,7 @@ class TemplateController{
 
 		$mail->isMail();
 
-		$mail->setFrom("support@comprosmart.com", "ComproSmart Support");
+		$mail->setFrom("support@bancariois.com", "BancarioIS Support");
 
 		$mail->Subject = "Hi ".$name." - ".$subject;
 
@@ -146,7 +146,7 @@ class TemplateController{
 
 				Thanks,
 
-				Your ComproSmart Team
+				Your BancarioIS Team
 
 			</div>
 

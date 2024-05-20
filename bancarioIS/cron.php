@@ -8,7 +8,7 @@ $fields = array();
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://apiadmin.marketplace.com/'.$url,
+  CURLOPT_URL => 'https://api.bancariois.com/'.$url,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
@@ -61,7 +61,7 @@ if($response->status == 200){
 				$curl = curl_init();
 
 				curl_setopt_array($curl, array(
-				  CURLOPT_URL => 'https://apiadmin.marketplace.com/'.$url,
+				  CURLOPT_URL => 'https://api.bancariois.com/'.$url,
 				  CURLOPT_RETURNTRANSFER => true,
 				  CURLOPT_ENCODING => '',
 				  CURLOPT_MAXREDIRS => 10,
