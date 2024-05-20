@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-05-2024 a las 23:21:08
+-- Tiempo de generación: 20-05-2024 a las 23:34:25
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -49,6 +49,14 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id_user`, `rol_user`, `picture_user`, `displayname_user`, `username_user`, `password_user`, `email_user`, `country_user`, `city_user`, `phone_user`, `address_user`, `token_user`, `token_exp_user`, `method_user`, `verification_user`, `wishlist_user`, `date_created_user`, `date_updated_user`) VALUES
+(1, 'admin', '42.png', 'Admin', 'admincs', '$2a$07$azybxcags23425sdg23sdenVRIgAYZIqPMoYAXtNHxr2kzv4mf/8G', 'admin@comprosmart.com', 'Guatemala', 'Guatemala', '+502_37219056', 'Guatemala Guatemala', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDk5MTI0NzUsImV4cCI6MTcwOTk5ODg3NSwiZGF0YSI6eyJpZCI6NDIsImVtYWlsIjoiYWRtaW5AY29tcHJvc21hcnQuY29tIn19.q-xeIOUPqU6wJdKP0edOKhIBz7vguny51O6JoewtyYc', '1709998875', 'direct', 1, NULL, '2024-05-20', '2024-05-20 21:30:04'),
+(2, 'admin', '2.jpg', 'Guillermo Arango', 'guille', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'guille@gmail.com', 'Guatemala', 'Guatemala', ' 502_37219056', 'Guatemala Guatemala', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTU5NzgxMzMsImV4cCI6MTcxNjA2NDUzMywiZGF0YSI6eyJpZCI6MiwiZW1haWwiOiJndWlsbGVAZ21haWwuY29tIn19.mSloNNaVsCwwQpBOa0gWW_HpBhU6KWMgJg37jjvDkNo', '1716064533', 'direct', 1, NULL, '2024-05-20', '2024-05-20 21:33:44');
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -66,7 +74,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
