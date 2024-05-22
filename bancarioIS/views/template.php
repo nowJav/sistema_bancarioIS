@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 
 /*=============================================
@@ -15,18 +15,17 @@ foreach ($routesArray as $key => $value) {
 
   $value = explode("?", $value)[0];
   $routesArray[$key] = $value;
-  
-  
 }
 
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bank Credi</title>
+  <title>Credi Bank</title>
 
   <base href="<?php echo TemplateController::path() ?>">
 
@@ -38,7 +37,7 @@ foreach ($routesArray as $key => $value) {
   <link rel="stylesheet" href="views/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="views/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-   <!-- Select2 -->
+  <!-- Select2 -->
   <link rel="stylesheet" href="views/assets/plugins/select2/css/select2.min.css">
   <link rel="stylesheet" href="views/assets/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
   <!-- Material Preloader -->
@@ -49,14 +48,14 @@ foreach ($routesArray as $key => $value) {
   <link rel="stylesheet" href="views/assets/plugins/linearicons/linearicons.css">
   <!-- Tags Input -->
   <link rel="stylesheet" href="views/assets/plugins/tags-input/tags-input.css">
-   <!-- summernote -->
+  <!-- summernote -->
   <link rel="stylesheet" href="views/assets/plugins/summernote/summernote-bs4.min.css">
-   <!-- dropzone-->
+  <!-- dropzone-->
   <link rel="stylesheet" href="views/assets/plugins/dropzone/dropzone.css">
 
   <!-- Theme style -->
   <link rel="stylesheet" href="views/assets/plugins/adminlte/css/adminlte.min.css">
-   <!-- Template CSS -->
+  <!-- Template CSS -->
   <link rel="stylesheet" href="views/assets/custom/template/template.css">
 
   <!-- jQuery -->
@@ -94,35 +93,37 @@ foreach ($routesArray as $key => $value) {
   <script src="views/assets/plugins/dropzone/dropzone.js"></script>
 
 
-  <?php if (!empty($routesArray[1]) && !isset($routesArray[2])): ?>
+  <?php if (!empty($routesArray[1]) && !isset($routesArray[2])) : ?>
 
-    <?php if ($routesArray[1] == "admins" || 
-             $routesArray[1] == "users" ||
-             $routesArray[1] == "messages"): ?>
-     
-        <!-- DataTables  & Plugins -->
-        <link rel="stylesheet" href="views/assets/plugins/daterangepicker/daterangepicker.css">
-        <link rel="stylesheet" href="views/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-        <link rel="stylesheet" href="views/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-        <link rel="stylesheet" href="views/assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <?php if (
+      $routesArray[1] == "admins" ||
+      $routesArray[1] == "users" ||
+      $routesArray[1] == "messages"
+    ) : ?>
 
-        <script src="views/assets/plugins/moment/moment.min.js"></script>
-        <script src="views/assets/plugins/daterangepicker/daterangepicker.js"></script>
-        <script src="views/assets/plugins/datatables/jquery.dataTables.min.js"></script>
-        <script src="views/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-        <script src="views/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-        <script src="views/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-        <script src="views/assets/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
-        <script src="views/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-        <script src="views/assets/plugins/jszip/jszip.min.js"></script>
-        <script src="views/assets/plugins/pdfmake/pdfmake.min.js"></script>
-        <script src="views/assets/plugins/pdfmake/vfs_fonts.js"></script>
-        <script src="views/assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
-        <script src="views/assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>
-        <script src="views/assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+      <!-- DataTables  & Plugins -->
+      <link rel="stylesheet" href="views/assets/plugins/daterangepicker/daterangepicker.css">
+      <link rel="stylesheet" href="views/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+      <link rel="stylesheet" href="views/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+      <link rel="stylesheet" href="views/assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
+      <script src="views/assets/plugins/moment/moment.min.js"></script>
+      <script src="views/assets/plugins/daterangepicker/daterangepicker.js"></script>
+      <script src="views/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+      <script src="views/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+      <script src="views/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+      <script src="views/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+      <script src="views/assets/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+      <script src="views/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+      <script src="views/assets/plugins/jszip/jszip.min.js"></script>
+      <script src="views/assets/plugins/pdfmake/pdfmake.min.js"></script>
+      <script src="views/assets/plugins/pdfmake/vfs_fonts.js"></script>
+      <script src="views/assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+      <script src="views/assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+      <script src="views/assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
 
-      <?php endif ?>
+    <?php endif ?>
 
   <?php endif ?>
 
@@ -138,74 +139,72 @@ foreach ($routesArray as $key => $value) {
 
 <body class="hold-transition sidebar-mini layout-fixed">
 
-  <?php 
+  <?php
 
-  if(!isset($_SESSION["admin"])){
+  if (!isset($_SESSION["admin"])) {
 
-   include "views/pages/login/login.php"; 
+    include "views/pages/login/login.php";
 
-   echo '</body></head>';
+    echo '</body></head>';
 
-   return;
-
+    return;
   }
 
 
   ?>
 
 
-<?php if (isset($_SESSION["admin"])): ?>
+  <?php if (isset($_SESSION["admin"])) : ?>
 
-<!-- Site wrapper -->
-<div class="wrapper">
-  
-  <!-- Navbar -->
-  <?php include "views/modules/navbar.php"; ?>
+    <!-- Site wrapper -->
+    <div class="wrapper">
 
-  <!-- Main Sidebar Container -->
-  <?php include "views/modules/sidebar.php"; ?>
+      <!-- Navbar -->
+      <?php include "views/modules/navbar.php"; ?>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+      <!-- Main Sidebar Container -->
+      <?php include "views/modules/sidebar.php"; ?>
 
-    <?php
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
 
-    if(!empty($routesArray[1])){
+        <?php
 
-      if($routesArray[1] == "admins" || 
-         $routesArray[1] == "users" ||
-         $routesArray[1] == "messages" ||
-         $routesArray[1] == "logout"){
+        if (!empty($routesArray[1])) {
 
-        include "views/pages/".$routesArray[1]."/".$routesArray[1].".php";
+          if (
+            $routesArray[1] == "admins" ||
+            $routesArray[1] == "users" ||
+            $routesArray[1] == "messages" ||
+            $routesArray[1] == "logout"
+          ) {
 
-      }else{
+            include "views/pages/" . $routesArray[1] . "/" . $routesArray[1] . ".php";
+          } else {
 
-         include "views/pages/404/404.php"; 
+            include "views/pages/404/404.php";
+          }
+        } else {
 
-      }
+          include "views/pages/home/home.php";
+        }
 
-    }else{
+        ?>
+        <!-- Content Header (Page header) -->
 
-      include "views/pages/home/home.php"; 
- 
-    }
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
 
-    ?>
-    <!-- Content Header (Page header) -->
-  
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+      <?php include "views/modules/footer.php"; ?>
 
-  <?php include "views/modules/footer.php"; ?>
+    </div>
+    <!-- ./wrapper -->
 
-</div>
-<!-- ./wrapper -->
+  <?php endif ?>
 
-<?php endif ?>
-
-<script src="views/assets/custom/forms/forms.js"></script>
+  <script src="views/assets/custom/forms/forms.js"></script>
 
 </body>
+
 </html>
