@@ -1,0 +1,25 @@
+.top-centered-link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 150px; /* Ajusta esta altura según sea necesario */
+    background-color: #FFFAF0;
+}
+.brand-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #FFFAF0;
+}
+.brand-link img {
+    display: block; /* Asegura que la imagen no tenga espacio en línea a su alrededor */
+}
+
+.navbar-color{
+    background-color: #FFFAF0;
+}
+.nav-treeview .nav-item {
+    margin-left: 20px; /* Ajusta el valor según el nivel de sangría deseado */
+}
+

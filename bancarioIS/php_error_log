@@ -1,0 +1,7 @@
+[23-May-2024 22:56:28 Europe/Berlin] PHP Warning:  Undefined variable $path in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\fechaCorte\fechaCorte.php on line 102
+[23-May-2024 23:20:29 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 196
+[23-May-2024 23:20:29 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 196
+[23-May-2024 23:35:31 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 200
+[23-May-2024 23:35:31 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 200
+[23-May-2024 23:36:06 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 200
+[23-May-2024 23:36:06 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 200
