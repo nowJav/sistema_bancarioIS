@@ -2,24 +2,7 @@
   
   <div class="container-fluid">
 
-
-  <h1>AQUI ESTARA EL CAMBIO DE PIN</h1>
-
-    <!-- BOXES -->
-    <?php include "modules/boxes.php"; ?>
-
-    <!-- GRÁFICOS -->
-    <?php include "modules/chart.php"; ?>
-
-    <div class="row">
-
-      <!-- ÓRDENES -->
-      <?php include "modules/orders.php"; ?>
-
-      <!-- PRODUCTOS -->
-      <?php include "modules/products.php"; ?>
-
-    </div><!-- /.container-fluid -->
+  <?php include "modules/cambio.php"; ?>
 
   </div>
 

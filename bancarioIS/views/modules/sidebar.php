@@ -27,8 +27,8 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
 
+                <!-- 
                 <li class="nav-item">
                     <a href="/" class="nav-link <?php if (empty($routesArray)): ?>active<?php endif ?>">
                         <i class="fas fa-id-badge"></i>
@@ -37,9 +37,10 @@
                         </p>
                     </a>
                 </li>
+                -->
 
                 <li class="nav-item">
-                    <a href="cuenta"
+                    <a href="/"
                         class="nav-link <?php if (!empty($routesArray) && $routesArray[1] == "cuenta"): ?>active<?php endif ?>">
                         <i class="fas fa-address-book"></i>
                         <p>

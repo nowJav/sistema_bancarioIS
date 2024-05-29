@@ -23,3 +23,11 @@
     margin-left: 20px; /* Ajusta el valor según el nivel de sangría deseado */
 }
 
+.color-target{
+    background-color: #E5E8E8 !important;
+}
+
+.color-target-second{
+    background-color: #ffffff !important;
+}
+
