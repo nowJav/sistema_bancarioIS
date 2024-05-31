@@ -3,25 +3,10 @@
   <div class="container-fluid">
 
 
-  <h1>AQUI ESTARA EL BLOQUEO TEMPORAL</h1>
+  <h1></h1>
 
-    <!-- BOXES -->
-    <?php include "modules/boxes.php"; ?>
 
-    <!-- GRÁFICOS -->
-    <?php include "modules/chart.php"; ?>
-
-    <div class="row">
-
-      <!-- ÓRDENES -->
-      <?php include "modules/orders.php"; ?>
-
-      <!-- PRODUCTOS -->
-      <?php include "modules/products.php"; ?>
-
-    </div><!-- /.container-fluid -->
-
-  </div>
+    <?php include "modules/pago.php"; ?>
 
 </section>
 

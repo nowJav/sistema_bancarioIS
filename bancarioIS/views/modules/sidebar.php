@@ -50,9 +50,9 @@
 
                 <!-- --- Lista para Menu Tarjetas --- -->
                 <li
-                    class="nav-item has-treeview <?php if (!empty($routesArray) && in_array($routesArray[1], ["fechaCorte", "detalleTarjeta", "cambioPin", "bloqueoTemporal"])): ?>menu-open<?php endif ?>">
+                    class="nav-item has-treeview <?php if (!empty($routesArray) && in_array($routesArray[1], ["fechaCorte", "detalleTarjeta", "cambioPin"])): ?>menu-open<?php endif ?>">
                     <a
-                        class="nav-link <?php if (!empty($routesArray) && in_array($routesArray[1], ["fechaCorte", "detalleTarjeta", "cambioPin", "bloqueoTemporal"])): ?>active<?php endif ?>">
+                        class="nav-link <?php if (!empty($routesArray) && in_array($routesArray[1], ["fechaCorte", "detalleTarjeta", "cambioPin"])): ?>active<?php endif ?>">
                         <i class="fas fa-id-card"></i>
                         <p>
                             Tarjeta
@@ -90,17 +90,6 @@
                                 <i class="fas fa-unlock-alt"></i>
                                 <p>
                                     Cambio Pin
-                                </p>
-                            </a>
-                        </li>
-
-                        <!-- Bloqueo Temporal -->
-                        <li class="nav-item">
-                            <a href="bloqueoTemporal"
-                                class="nav-link <?php if (!empty($routesArray) && $routesArray[1] == "bloqueoTemporal"): ?>active<?php endif ?>">
-                                <i class="fas fa-lock"></i>
-                                <p>
-                                    Bloqueo Temporal
                                 </p>
                             </a>
                         </li>

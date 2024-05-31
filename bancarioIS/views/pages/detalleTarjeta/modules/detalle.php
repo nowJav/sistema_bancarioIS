@@ -117,9 +117,21 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                <label for="exampleInputEmail1">Estado de la Tarjeta</label>
+                                <select class="form-control select2" name="department-category" style="width:100%"
+                                    required>
+                                    <option value="">Seleccione...</option>
+                                    <option value="">Activa</option>
+                                    <option value="">Desactivada</option>
+                                </select>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

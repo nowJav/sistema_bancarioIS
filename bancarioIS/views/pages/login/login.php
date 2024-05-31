@@ -1,7 +1,7 @@
 <div class="hold-transition login-page">
   <div class="login-box">
     <div class="login-logo">
-      <img src="views/assets/img/template/Logo-ComproSmart-Final.png" height="90" width="350">
+      <img src="views/assets/img/template/CREDISBANK-LOGO.png" height="350" width="350">
     </div>
     <!-- /.login-logo -->
     <div class="card">
