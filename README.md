@@ -13,3 +13,8 @@ utf8_general_ci
 # voy a borrar las rutas que aparecen aqui
 # Sistema: bancariois.com
 # api: api.bancariois.com
+
+
+
+
+#  vamos sobadisisisisimos ujajaj 
