@@ -19,10 +19,9 @@
 
             </div>
             <div class="info">
-                <a href="#" class="d-block"><?php echo $_SESSION["admin"]->displayname_user ?></a>
+                <a href="moduloPerfil" class="d-block "><?php echo $_SESSION["admin"]->displayname_user ?></a>
             </div>
         </div>
-
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">

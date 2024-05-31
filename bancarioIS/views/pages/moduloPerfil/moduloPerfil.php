@@ -3,7 +3,7 @@
   <div class="container-fluid">
 
 
-  <?php include "modules/detalle.php"; ?>
+  <?php include "modules/perfil.php"; ?>
 
 
   </div>

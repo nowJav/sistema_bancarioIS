@@ -107,7 +107,8 @@ foreach ($routesArray as $key => $value) {
       $routesArray[1] == "consultaSaldo"||
       $routesArray[1] == "consultaConsumo"||
       $routesArray[1] == "pagos"||
-      $routesArray[1] == "solicitudes"
+      $routesArray[1] == "solicitudes"||
+      $routesArray[1] == "moduloPerfil"
     ) : ?>
 
       <!-- DataTables  & Plugins -->
@@ -194,7 +195,8 @@ foreach ($routesArray as $key => $value) {
             $routesArray[1] == "consultaSaldo"||
             $routesArray[1] == "consultaConsumo"||
             $routesArray[1] == "pagos"||
-            $routesArray[1] == "solicitudes"
+            $routesArray[1] == "solicitudes"||
+            $routesArray[1] == "moduloPerfil"
           ) {
 
             include "views/pages/" . $routesArray[1] . "/" . $routesArray[1] . ".php";

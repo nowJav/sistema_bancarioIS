@@ -48,3 +48,5 @@
 [29-May-2024 22:43:01 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\cambioPin\modules\cambio.php on line 24
 [29-May-2024 22:43:14 Europe/Berlin] PHP Warning:  Undefined variable $departments in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\cambioPin\modules\cambio.php on line 24
 [29-May-2024 22:43:14 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\cambioPin\modules\cambio.php on line 24
+[30-May-2024 05:56:07 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 200
+[30-May-2024 05:56:07 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 200
