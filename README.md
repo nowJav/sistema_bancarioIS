@@ -8,6 +8,8 @@ DataBAse: bancariois
 utf8_general_ci
 
 # url´s BancarioIS
-Sistema: bancariois.com
-api: api.bancariois.com
 
+
+# voy a borrar las rutas que aparecen aqui
+# Sistema: bancariois.com
+# api: api.bancariois.com
