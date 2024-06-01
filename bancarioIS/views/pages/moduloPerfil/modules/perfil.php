@@ -9,31 +9,29 @@
                             alt="User profile picture" style="width: 175px; height: 175px;">
                     </div>
 
-                    <h3 class="profile-username text-center">Victor Andres Vasquez Hernandez</h3>
+                    <h3 class="profile-username text-center"><?php echo $_SESSION["admin"]->displayname_user ?></h3> <!-- Muestra el nombre del usuario -->
 
                     <p class="text-muted text-center">Informacion Personal</p>
 
                     <ul class="list-group list-group-unbordered mb-3">
 
                         <li class="list-group-item">
-                            <b>Nombre</b> <a class="float-right">Victor Andres Vasquez Hernandez</a>
+                            <b>Nombre</b> <a class="float-right"><?php echo $_SESSION["admin"]->displayname_user ?></a>
                         </li>
 
                         <li class="list-group-item">
-                            <b>CUI</b> <a class="float-right">2997787540101</a>
+                            <b>CUI</b> <a class="float-right"><?php echo $_SESSION["admin"]->cui_user ?></a>
                         </li>
 
                         <li class="list-group-item">
-                            <b>Email</b> <a class="float-right">victor@gmail.com</a>
+                            <b>Email</b> <a class="float-right"><?php echo $_SESSION["admin"]->email_user ?></a>
                         </li>
 
                         <li class="list-group-item">
-                            <b>Telefono</b> <a class="float-right">+502 37219056</a>
+                            <b>Telefono</b> <a class="float-right"><?php echo $_SESSION["admin"]->phone_user ?></a>
                         </li>
 
                     </ul>
-
-                    <a href="#" class="btn btn-primary btn-block"><b>Actualizar Datos</b></a>
                 </div>
             </div>
         </div>

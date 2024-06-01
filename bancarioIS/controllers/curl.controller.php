@@ -34,8 +34,4 @@ class CurlController
 		$response = json_decode($response);
 		return $response;
 	}
-
-	/*=============================================
-	Peticiones al destino de archivos
-	=============================================*/
 }

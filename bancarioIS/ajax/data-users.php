@@ -52,7 +52,7 @@ class DatatableController{
            	Búsqueda de datos
             =============================================*/	
 
-            $select = "id_user,picture_user,displayname_user,username_user,email_user,country_user,city_user,date_created_user,method_user,address_user,phone_user";
+            $select = "id_user,picture_user,displayname_user,username_user,email_user,country_user,city_user,date_created_user,method_user,address_user,phone_user,gender_user,cui_user";
 
             if(!empty($_POST['search']['value'])){
 
@@ -150,7 +150,9 @@ class DatatableController{
 
 
             	$displayname_user = $value->displayname_user;
-            	$username_user = $value->username_user;	
+				$gender_user = $value->gender_user;
+            	$cui_user = $value->cui_user;
+				$username_user = $value->username_user;	
             	$email_user = $value->email_user;
             	$method_user = $value->method_user;
             	$country_user = $value->country_user;	
@@ -164,6 +166,8 @@ class DatatableController{
             		"id_user":"'.($start+$key+1).'",
             		"picture_user":"'.$picture_user.'",
             		"displayname_user":"'.$displayname_user.'",
+					"gender_user":"'.$gender_user.'",
+					"cui_user":"'.$cui_user.'",
             		"username_user":"'.$username_user.'",
             		"email_user":"'.$email_user.'",
             		"method_user":"'.$method_user.'",
