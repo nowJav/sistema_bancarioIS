@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-06-2024 a las 03:45:07
+-- Tiempo de generación: 01-06-2024 a las 08:53:16
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -173,6 +173,7 @@ CREATE TABLE `users` (
   `picture_user` text DEFAULT NULL,
   `gender_user` text DEFAULT NULL,
   `cui_user` text DEFAULT NULL,
+  `account_user` int(11) DEFAULT NULL,
   `displayname_user` text DEFAULT NULL,
   `username_user` text DEFAULT NULL,
   `password_user` text DEFAULT NULL,
@@ -193,9 +194,9 @@ CREATE TABLE `users` (
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`id_user`, `rol_user`, `picture_user`, `gender_user`, `cui_user`, `displayname_user`, `username_user`, `password_user`, `email_user`, `country_user`, `city_user`, `phone_user`, `address_user`, `token_user`, `token_exp_user`, `method_user`, `verification_user`, `date_created_user`, `date_updated_user`) VALUES
-(1, 'admin', '42.png', 'male', '2997787540101', 'Javier Morales', 'javier', '$2a$07$azybxcags23425sdg23sdenVRIgAYZIqPMoYAXtNHxr2kzv4mf/8G', 'javier@gmail.com', 'Guatemala', 'Guatemala', '+502_37219056', 'Guatemala Guatemala', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTcwNDUwNTksImV4cCI6MTcxNzEzMTQ1OSwiZGF0YSI6eyJpZCI6MSwiZW1haWwiOiJqYXZpZXJAZ21haWwuY29tIn19.MVdpmFX89h2lwKZabrBSfpnPKh48WJSsfBk-60WXH7U', '1717131459', 'direct', 1, '2024-05-20', '2024-05-30 04:57:39'),
-(2, 'admin', '2.jpg', 'male', '2999787540108', 'Victor Vasquez', 'victor', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'victor@gmail.com', 'Guatemala', 'Guatemala', ' 502_37219056', 'Guatemala Guatemala', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTcwNDUxNDgsImV4cCI6MTcxNzEzMTU0OCwiZGF0YSI6eyJpZCI6MiwiZW1haWwiOiJ2aWN0b3JAZ21haWwuY29tIn19.auTNk4uAU5jQxTf_AkvRTApljcMHLXQ-Y80aTnqR68A', '1717131548', 'direct', 1, '2024-05-20', '2024-05-30 04:59:08');
+INSERT INTO `users` (`id_user`, `rol_user`, `picture_user`, `gender_user`, `cui_user`, `account_user`, `displayname_user`, `username_user`, `password_user`, `email_user`, `country_user`, `city_user`, `phone_user`, `address_user`, `token_user`, `token_exp_user`, `method_user`, `verification_user`, `date_created_user`, `date_updated_user`) VALUES
+(1, 'admin', '42.jpg', 'male', '2997787540101', 837511, 'Victor Vasquez Hernandez', 'victor', '$2a$07$azybxcags23425sdg23sdenVRIgAYZIqPMoYAXtNHxr2kzv4mf/8G', 'victor@gmail.com', 'Guatemala', 'Guatemala', '+502_37219056', 'Guatemala Guatemala', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTcyMjMxNzEsImV4cCI6MTcxNzMwOTU3MSwiZGF0YSI6eyJpZCI6MSwiZW1haWwiOiJ2aWN0b3JAZ21haWwuY29tIn19.wGKDMU6jv8sYdQIPU60lAFGWAZagIJ0U0sZ-vzJfSN8', '1717309571', 'direct', 1, '2024-05-20', '2024-06-01 06:26:11'),
+(2, 'admin', '2.jpg', 'male', '2999787540108', 871234, 'Javier Morales', 'javier', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'javier@gmail.com', 'Guatemala', 'Guatemala', ' 502_37219056', 'Guatemala Guatemala', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTcyMjM4OTcsImV4cCI6MTcxNzMxMDI5NywiZGF0YSI6eyJpZCI6MiwiZW1haWwiOiJqYXZpZXJAZ21haWwuY29tIn19.GR5ixDN2VQK-j63ANOJb4ZCgV6ybh883dEZoTdglRaY', '1717310297', 'direct', 1, '2024-05-20', '2024-06-01 06:38:17');
 
 --
 -- Índices para tablas volcadas
@@ -259,7 +260,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `cards`
 --
 ALTER TABLE `cards`
-  MODIFY `id_card` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_card` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `credit_limit_requests`

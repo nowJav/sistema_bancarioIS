@@ -39,7 +39,7 @@ class Connection
 	static public function publicAccess()
 	{
 
-		$tables = ["users"];
+		$tables = ["users", "cards"];
 
 		return $tables;
 	}

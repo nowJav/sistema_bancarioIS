@@ -14,13 +14,13 @@
                                     <!-- ---------- INICIO DE DATOS DE CUENTAS DISPONIBLES ---------- -->
                                     <div class="row">
                                         <div class="col-3">
-                                            <h1>numero cuenta</h1>
+                                            <h1>871234</h1>
                                         </div>
                                         <div class="col-6">
-                                            <h1>nombre persona</h1>
+                                            <h1>Javier Morales</h1>
                                         </div>
                                         <div class="col-3">
-                                            <h1>monto</h1>
+                                            <h1>Q</h1>
                                         </div>
                                     </div>
                                 </a>
@@ -88,10 +88,6 @@
                                                         </li>
                                                         <li class="page-item"><a class="page-link" href="#">1</a>
                                                         </li>
-                                                        <li class="page-item"><a class="page-link" href="#">2</a>
-                                                        </li>
-                                                        <li class="page-item"><a class="page-link" href="#">3</a>
-                                                        </li>
                                                         <li class="page-item"><a class="page-link" href="#">&raquo;</a>
                                                         </li>
                                                     </ul>
@@ -109,6 +105,12 @@
                                                     </thead>
                                                     <tbody>
                                                         <!-- CONFIGURACION PARA REALIZAR EL MINI HISTORIAL -->
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Grocery Shopping</td>
+                                                            <td>2023-06-01 10:00:00</td>
+                                                            <td>100.00</td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -121,7 +123,6 @@
                                 <label for="exampleInputEmail1">Estado de la Tarjeta</label>
                                 <select class="form-control select2" name="department-category" style="width:100%"
                                     required>
-                                    <option value="">Seleccione...</option>
                                     <option value="">Activa</option>
                                     <option value="">Desactivada</option>
                                 </select>

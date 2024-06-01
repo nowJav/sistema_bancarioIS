@@ -14,13 +14,13 @@
                                     <!-- ---------- INICIO DE DATOS DE CUENTAS DISPONIBLES ---------- -->
                                     <div class="row">
                                         <div class="col-3">
-                                            <h1>numero cuenta</h1>
+                                            <h1>871234</h1>
                                         </div>
                                         <div class="col-6">
-                                            <h1>nombre persona</h1>
+                                            <h1>Javier Morales</h1>
                                         </div>
                                         <div class="col-3">
-                                            <h1>monto</h1>
+                                            <h1>Q</h1>
                                         </div>
                                     </div>
                                 </a>
@@ -88,10 +88,6 @@
                                                         <li class="page-item"><a class="page-link" href="#">&laquo;</a>
                                                         </li>
                                                         <li class="page-item"><a class="page-link" href="#">1</a>
-                                                        </li>
-                                                        <li class="page-item"><a class="page-link" href="#">2</a>
-                                                        </li>
-                                                        <li class="page-item"><a class="page-link" href="#">3</a>
                                                         </li>
                                                         <li class="page-item"><a class="page-link" href="#">&raquo;</a>
                                                         </li>
