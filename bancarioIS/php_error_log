@@ -73,3 +73,18 @@ Stack trace:
 [01-Jun-2024 06:24:44 Europe/Berlin] PHP Warning:  Attempt to read property "email" on null in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\moduloPerfil\modules\perfil.php on line 27
 [01-Jun-2024 06:24:44 Europe/Berlin] PHP Warning:  Undefined variable $usuario in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\moduloPerfil\modules\perfil.php on line 31
 [01-Jun-2024 06:24:44 Europe/Berlin] PHP Warning:  Attempt to read property "phone" on null in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\moduloPerfil\modules\perfil.php on line 31
+[01-Jun-2024 06:57:19 Europe/Berlin] PHP Warning:  Undefined variable $card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 7
+[01-Jun-2024 06:57:19 Europe/Berlin] PHP Warning:  Attempt to read property "id_card" on null in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 7
+[01-Jun-2024 06:57:19 Europe/Berlin] PHP Warning:  Undefined variable $card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 25
+[01-Jun-2024 06:57:19 Europe/Berlin] PHP Warning:  Attempt to read property "card_number_card" on null in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 25
+[01-Jun-2024 06:58:01 Europe/Berlin] PHP Warning:  Undefined variable $card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 7
+[01-Jun-2024 06:58:01 Europe/Berlin] PHP Warning:  Attempt to read property "id_card" on null in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 7
+[01-Jun-2024 06:58:01 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$card_number_card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 25
+[01-Jun-2024 07:01:15 Europe/Berlin] PHP Warning:  Undefined variable $card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 60
+[01-Jun-2024 07:01:15 Europe/Berlin] PHP Warning:  Attempt to read property "card_number_card" on null in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 60
+[01-Jun-2024 07:04:09 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$card_number_card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 60
+[01-Jun-2024 07:04:23 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$card_number_card in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\pages\home\modules\cuenta.php on line 17
+[01-Jun-2024 08:10:25 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 202
+[01-Jun-2024 08:10:25 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 202
+[01-Jun-2024 08:17:56 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 202
+[01-Jun-2024 08:17:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 202
