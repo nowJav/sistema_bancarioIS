@@ -23,7 +23,7 @@ if (isset($routesArray[3])) {
 
             echo '<script>
 
-				window.location = "/brands";
+				window.location = "/home";
 
 				</script>';
         }
@@ -32,7 +32,7 @@ if (isset($routesArray[3])) {
 
         echo '<script>
 
-			window.location = "/brands";
+			window.location = "/home";
 
 			</script>';
 

@@ -50,9 +50,9 @@
 
                 <!-- --- Lista para Menu Tarjetas --- -->
                 <li
-                    class="nav-item has-treeview <?php if (!empty($routesArray) && in_array($routesArray[1], ["fechaCorte", "detalleTarjeta", "cambioPin"])): ?>menu-open<?php endif ?>">
+                    class="nav-item has-treeview <?php if (!empty($routesArray) && in_array($routesArray[1], [ "detalleTarjeta", "cambioPin"])): ?>menu-open<?php endif ?>">
                     <a
-                        class="nav-link <?php if (!empty($routesArray) && in_array($routesArray[1], ["fechaCorte", "detalleTarjeta", "cambioPin"])): ?>active<?php endif ?>">
+                        class="nav-link <?php if (!empty($routesArray) && in_array($routesArray[1], ["detalleTarjeta", "cambioPin"])): ?>active<?php endif ?>">
                         <i class="fas fa-id-card"></i>
                         <p>
                             Tarjeta
@@ -60,17 +60,6 @@
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
-
-                        <!-- Consulta de Fecha de Corte -->
-                        <li class="nav-item">
-                            <a href="fechaCorte"
-                                class="nav-link <?php if (!empty($routesArray) && $routesArray[1] == "fechaCorte"): ?>active<?php endif ?>">
-                                <i class="far fa-calendar-alt"></i>
-                                <p>
-                                    Fecha de Corte
-                                </p>
-                            </a>
-                        </li>
 
                         <!-- Obtener Detalle de la Tarjeta -->
                         <li class="nav-item">
