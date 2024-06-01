@@ -44,9 +44,8 @@
                                                             alt="Chip" style="width: 30px; height: auto;">
                                                     </div>
                                                 </div>
-                                                <h3 class="widget-user-username" style="margin-top: 50px;">Victor Andres
-                                                    Vasquez Hernandez</h3>
-                                                <h5 class="widget-user-desc">1234 5678 9101 1121</h5>
+                                                <h3 class="widget-user-username" style="margin-top: 50px;"><?php echo $_SESSION["admin"]->displayname_user ?></h3>
+                                                <h5 class="widget-user-desc">**** **** **** 3456</h5>
                                                 <div style="position: absolute; top: 0px; right: 0px;">
                                                     <img src="views/assets/img/template/CREDISBANK-LOGO.png"
                                                         alt="Bank Logo" style="width: 100px; height: auto;">

@@ -8,9 +8,7 @@
 				<label for="exampleInputEmail1">Seleccione una Tarjeta</label>
 				<select class="form-control select2" name="department-category" style="width:100%" required>
 					<option value="">Seleccione...</option>
-					<option value="">prueba 1</option>
-					<option value="">prueba 2</option>
-					<option value="">prueba 3</option>
+					<option value="">**** **** **** 3456</option>
 				</select>
 			</div>
 
@@ -21,21 +19,21 @@
 						<img class="img-circle elevation-2" src="views/assets/img/template/CREDISBANK-LOGO.png"
 							alt="User Avatar">
 					</div>
-					<h3 class="widget-user-username">Victor Andres Vasquez Hernandez</h3>
-					<h5 class="widget-user-desc">Numero de Tarjeta</h5>
+					<h3 class="widget-user-username"><?php echo $_SESSION["admin"]->displayname_user ?></h3>
+					<h5 class="widget-user-desc">**** **** **** 3456</h5>
 				</div>
 				<div class="card-footer">
 					<ul class="nav flex-column">
 						<li class="nav-item">
 							<p class="nav-link">
 								<i class="fas fa-coins mr-1"></i> Saldo Disponible <span
-									class="float-right">12345</span>
+									class="float-right">5000.00</span>
 							</p>
 						</li>
 						<li class="nav-item">
 							<p class="nav-link">
 								<i class="fas fa-coins mr-1"></i> Saldo en Reserva <span
-									class="float-right">234</span>
+									class="float-right">0</span>
 							</p>
 						</li>
 						<li class="nav-item">
@@ -66,8 +64,8 @@
 <script>
 	document.addEventListener("DOMContentLoaded", function () {
 		// Obtenemos los elementos de saldo disponible y saldo en reserva
-		var saldoDisponible = 12345;
-		var saldoEnReserva = 234;
+		var saldoDisponible = 5000.00;
+		var saldoEnReserva = 0;
 
 		// Calculamos el saldo total restando saldo disponible - saldo en reserva
 		var saldoTotal = saldoDisponible - saldoEnReserva;

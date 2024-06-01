@@ -1,47 +1,3 @@
-<?php
-
-if (isset($routesArray[3])) {
-
-    $security = explode("~", base64_decode($routesArray[3]));
-
-    if ($security[1] == $_SESSION["admin"]->token_user) {
-
-        $select = "*";
-
-        $url = "brands?select=" . $select . "&linkTo=id_brand&equalTo=" . $security[0];
-        ;
-        $method = "GET";
-        $fields = array();
-
-        $response = CurlController::request($url, $method, $fields);
-
-        if ($response->status == 200) {
-
-            $brand = $response->results[0];
-
-        } else {
-
-            echo '<script>
-
-				window.location = "/home";
-
-				</script>';
-        }
-
-    } else {
-
-        echo '<script>
-
-			window.location = "/home";
-
-			</script>';
-
-    }
-
-}
-
-?>
-
 <div class="row p-5">
     <div class="col-2"></div>
     <div class="col-8">
@@ -57,9 +13,8 @@ if (isset($routesArray[3])) {
                         <label for="exampleInputEmail1">Seleccione una Tarjeta</label>
                         <select class="form-control select2" name="department-category" style="width:100%" required>
                             <option value="">Seleccione...</option>
-                            <option value="">prueba 1</option>
-                            <option value="">prueba 2</option>
-                            <option value="">prueba 3</option>
+                            <option value="">1234567890123456</option>
+                            <option value=""></option>
                         </select>
                     </div>
 

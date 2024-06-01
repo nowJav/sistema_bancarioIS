@@ -98,7 +98,6 @@ foreach ($routesArray as $key => $value) {
     <?php if (
       $routesArray[1] == "admins" ||
       $routesArray[1] == "users" ||
-      $routesArray[1] == "messages" ||
       $routesArray[1] == "cuenta"||
       $routesArray[1] == "fechaCorte"||
       $routesArray[1] == "detalleTarjeta"||
@@ -106,7 +105,6 @@ foreach ($routesArray as $key => $value) {
       $routesArray[1] == "bloqueoTemporal"||
       $routesArray[1] == "consultaSaldo"||
       $routesArray[1] == "consultaConsumo"||
-      $routesArray[1] == "pagos"||
       $routesArray[1] == "solicitudes"||
       $routesArray[1] == "moduloPerfil"
     ) : ?>
@@ -185,7 +183,6 @@ foreach ($routesArray as $key => $value) {
           if (
             $routesArray[1] == "admins" ||
             $routesArray[1] == "users" ||
-            $routesArray[1] == "messages" ||
             $routesArray[1] == "logout" ||
             $routesArray[1] == "cuenta"||
             $routesArray[1] == "fechaCorte"||
@@ -194,7 +191,6 @@ foreach ($routesArray as $key => $value) {
             $routesArray[1] == "estadoCuenta"||
             $routesArray[1] == "consultaSaldo"||
             $routesArray[1] == "consultaConsumo"||
-            $routesArray[1] == "pagos"||
             $routesArray[1] == "solicitudes"||
             $routesArray[1] == "moduloPerfil"
           ) {
