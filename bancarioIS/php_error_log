@@ -1,0 +1,2 @@
+[01-Jun-2024 02:33:17 Europe/Berlin] PHP Warning:  include(views/pages/messages/messages.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 202
+[01-Jun-2024 02:33:17 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/pages/messages/messages.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sistema_bancarioIS\bancarioIS\views\template.php on line 202
