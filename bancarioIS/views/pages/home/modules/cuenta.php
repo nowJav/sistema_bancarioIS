@@ -26,6 +26,7 @@
                                 </a>
                             </h4>
                         </div>
+                        
                         <div id="collapseOne" class="collapse" data-parent="#accordion">
 
                             <!-- ---------- INICIO DE DATOS TARJETA ---------- -->
