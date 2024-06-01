@@ -16,9 +16,10 @@
 							<label for="exampleInputEmail1">Tipo de Solicitud</label>
 							<select class="form-control select2" name="department-category" style="width:100%" required>
 								<option value="">Seleccione...</option>
-								<option value="">prueba 1</option>
-								<option value="">prueba 2</option>
-								<option value="">prueba 3</option>
+								<option value="">solicitar nueva tarjeta</option>
+								<option value="">solicitar Nueva Cuenta</option>
+								<option value="">Solicitar Aumento de Credito</option>
+								<option value="">Solicitar Extra Financiamieto</option>
 							</select>
 						</div>
 						<div class="form-group">

@@ -31,6 +31,9 @@
                             <b>Telefono</b> <a class="float-right"><?php echo $_SESSION["admin"]->phone_user ?></a>
                         </li>
 
+                        <li class="list-group-item">
+                            <b>Direccion</b> <a class="float-right"><?php echo $_SESSION["admin"]->country_user ?>,<?php echo $_SESSION["admin"]->city_user ?></a>
+                        </li>
                     </ul>
                 </div>
             </div>

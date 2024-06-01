@@ -133,7 +133,7 @@
                     </ul>
                 </li>
 
-                <!-- --- Pagos --- -->
+                <!-- --- Pagos 
                 <li class="nav-item">
                     <a href="pagos"
                         class="nav-link <?php if (!empty($routesArray) && $routesArray[1] == "pagos"): ?>active<?php endif ?>">
@@ -142,7 +142,7 @@
                             Pagos
                         </p>
                     </a>
-                </li>
+                </li>--- -->
 
                 <!-- --- Solicitudes --- -->
                 <li class="nav-item">
@@ -155,7 +155,7 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
+                <!-- ---<li class="nav-item">
                     <a href="/messages"
                         class="nav-link <?php if (!empty($routesArray) && $routesArray[1] == "messages"): ?>active<?php endif ?>">
                         <i class="fas fa-inbox"></i>
@@ -169,7 +169,7 @@
                             <?php endif ?>
                         </p>
                     </a>
-                </li>
+                </li>--- -->
 
             </ul>
         </nav>

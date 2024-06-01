@@ -26,7 +26,7 @@
                                 </a>
                             </h4>
                         </div>
-                        
+
                         <div id="collapseOne" class="collapse" data-parent="#accordion">
 
                             <!-- ---------- INICIO DE DATOS TARJETA ---------- -->
@@ -110,7 +110,12 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        <!-- CONFIGURACION PARA REALIZAR EL MINI HISTORIAL -->
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Grocery Shopping</td>
+                                                            <td>2023-06-01 10:00:00</td>
+                                                            <td>100.00</td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </div>

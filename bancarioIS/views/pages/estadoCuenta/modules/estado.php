@@ -26,11 +26,11 @@
     <div class="col-sm-4 invoice-col">
       Para
       <address>
-        <strong>Nombre</strong><br>
-        Direccion<br>
-        numero de cuenta<br>
-        Telefono<br>
-        Correo
+        <strong>Javier Morales</strong><br>
+        Guatemala, Guatemala<br>
+        Cuenta: 0837511<br>
+        Telefono: +502_37219056<br>
+        Correo electrónico: javier@gmail.com
       </address>
     </div>
     <!-- /.col -->
@@ -38,7 +38,7 @@
       <b id="solicitud">Solicitud #</b>
       <br>
       <b>Estado de Cuenta</b><br>
-      <b>Cuenta:</b> 968-34567
+      <b>Cuenta:</b> 0837511
     </div>
     <!-- /.col -->
   </div>
@@ -50,15 +50,21 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th>Qty</th>
-            <th>Product</th>
-            <th>Serial #</th>
-            <th>Description</th>
-            <th>Subtotal</th>
+            <th>No</th>
+            <th>Tarjeta</th>
+            <th>Descripcion</th>
+            <th>Fecha</th>
+            <th>Monto</th>
           </tr>
         </thead>
         <tbody>
-          <!-- LISTAR AQUI TODOS LOS MOVIMIENTOS -->
+          <tr>
+            <td>1</td>
+            <td>1234567890123456</td>
+            <td>2023-06-01 10:00:00</td>
+            <td>Grocery Shopping</td>
+            <td>100.00</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -92,5 +98,3 @@
   // Insertar el número de solicitud en el elemento con id 'solicitud'
   document.getElementById('solicitud').textContent += solicitudNumber;
 </script>
-
-
