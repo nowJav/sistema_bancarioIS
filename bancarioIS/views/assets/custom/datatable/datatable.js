@@ -13,11 +13,14 @@ if($(".tableAdmins").length > 0){
   var columns = [
     {"data": "id_user"},
     {"data": "picture_user", "orderable":false, "search":false},
+    {"data": "gender_user"},
+    {"data": "cui_user"},
     {"data": "displayname_user"},
     {"data": "username_user"},
     {"data": "email_user"},
     {"data": "country_user"},
     {"data": "city_user"},
+    {"data": "phone_user"},
     {"data": "date_created_user"},
     {"data": "actions", "orderable":false}
   ];
